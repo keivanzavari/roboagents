@@ -1,0 +1,17 @@
+os: linux
+dist: trusty
+sudo: false
+language: cpp
+compiler: gcc
+# script:
+#   - CXX=/usr/bin/clang++-5.0 CC=/usr/bin/clang-5.0 cmake .
+#   - cmake --build .
+
+script:
+    ############################################################################
+    # Build main and tests
+    ############################################################################
+    - mkdir -p build
+    - cd build
+    - cmake ..
+    - make
