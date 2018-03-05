@@ -15,11 +15,17 @@ There are two separate classes Robot and World.
 * World continuously displays the world (obstacles plus robots) to the terminal using ASCII. Below is example output with two robots A and B
 
 1111111
+
 1**A**00001
+
 100**B**001
+
 1001101
+
 1001101
+
 1000001
+
 1111111
 
 ### The Robot class
