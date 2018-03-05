@@ -14,11 +14,12 @@ There are two separate classes Robot and World.
   * A robot can try to move a single space in any direction (holonomic), but if that space is blocked the robot does not move. Robot receives whether the move was successful or not
 * World continuously displays the world (obstacles plus robots) to the terminal using ASCII. Below is example output with two robots A and B
 
+```
 1111111
 
-1**A**00001
+1A00001
 
-100**B**001
+100B001
 
 1001101
 
@@ -27,6 +28,7 @@ There are two separate classes Robot and World.
 1000001
 
 1111111
+```
 
 ### The Robot class
 The Robot class defines a simple autonomous robot.
